@@ -25,4 +25,9 @@ public class HelloController {
     public String newSay() {
         return "你好么？";
     }
+
+    @RequestMapping(value = "/newHello2", method = RequestMethod.GET)
+    public String newSay2() {
+        return "你好么2？";
+    }
 }
