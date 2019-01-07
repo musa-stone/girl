@@ -21,6 +21,11 @@ public class HelloController {
         return girl.getContent();
     }
 
+    @RequestMapping(value = "/hello2", method = RequestMethod.GET)
+    public String say2() {
+        return "hello2";
+    }
+
     @RequestMapping(value = "/newHello", method = RequestMethod.GET)
     public String newSay() {
         return "你好么？";
@@ -35,4 +40,7 @@ public class HelloController {
     public String newSay3() {
         return "好的好的";
     }
+
+
 }
+
