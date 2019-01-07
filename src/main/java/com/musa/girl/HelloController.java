@@ -30,4 +30,9 @@ public class HelloController {
     public String newSay2() {
         return "你好么2？";
     }
+
+    @RequestMapping(value = "/newHello3", method = RequestMethod.GET)
+    public String newSay3() {
+        return "好的好的";
+    }
 }
