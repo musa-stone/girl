@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "girl")
 public class Girl {
 
+//a 哈
     private String cupSize;
     private Integer age;
     private String content;
